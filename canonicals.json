@@ -1,0 +1,156 @@
+[
+  {
+    "id" : "lk-core-province-ext",
+    "type" : "StructureDefinition",
+    "url" : "http://data.health.gov.lk/fhir/lk-core-province-ext",
+    "version" : "0.1.0",
+    "name" : "LKCoreProvinceExt"
+  },
+  {
+    "id" : "lk-core-district-cs",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-district-cs",
+    "version" : "0.1.0",
+    "name" : "LKCoreDistrictCS"
+  },
+  {
+    "id" : "lk-core-health-institution-cs",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-health-institution-cs",
+    "version" : "0.1.0",
+    "name" : "LKCoreHealthInstitutionCS"
+  },
+  {
+    "id" : "lk-core-institution-type-cs",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-institution-type-cs",
+    "version" : "0.1.0",
+    "name" : "LKCoreInstitutionTypeCS"
+  },
+  {
+    "id" : "lk-core-moh-area-cs",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs",
+    "version" : "0.1.0",
+    "name" : "LKCoreMOHAreaCS"
+  },
+  {
+    "id" : "lk-core-ownership-cs",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-ownership-cs",
+    "version" : "0.1.0",
+    "name" : "LKCoreOwnershipCS"
+  },
+  {
+    "id" : "lk-core-postalcodes-cs",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-postalcodes-cs",
+    "version" : "0.1.0",
+    "name" : "LKCorePostalCodesCS"
+  },
+  {
+    "id" : "lk-core-province-cs",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-province-cs",
+    "version" : "0.1.0",
+    "name" : "LKCoreProvinceCS"
+  },
+  {
+    "id" : "lk-core-qualifications-cs",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-qualifications-cs",
+    "version" : "0.1.0",
+    "name" : "LKCoreQualificationsCS"
+  },
+  {
+    "id" : "fhir.SLexampleIG",
+    "type" : "ImplementationGuide",
+    "url" : "http://fhir.health.gov.lk/ImplementationGuide/fhir.SLexampleIG",
+    "version" : "0.1.0",
+    "name" : "SLCoreexampleIG"
+  },
+  {
+    "id" : "lk-core-location",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.health.gov.lk/StructureDefinition/lk-core-location",
+    "version" : "0.1.0",
+    "name" : "LKCoreLocation"
+  },
+  {
+    "id" : "lk-core-organization",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.health.gov.lk/StructureDefinition/lk-core-organization",
+    "version" : "0.1.0",
+    "name" : "LKCoreOrganization"
+  },
+  {
+    "id" : "lk-core-practitioner",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.health.gov.lk/StructureDefinition/lk-core-practitioner",
+    "version" : "0.1.0",
+    "name" : "LKCorePractitioner"
+  },
+  {
+    "id" : "lk-core-district-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-district-vs",
+    "version" : "0.1.0",
+    "name" : "LKCoreDistrictVS"
+  },
+  {
+    "id" : "lk-core-health-institution-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-health-institution-vs",
+    "version" : "0.1.0",
+    "name" : "LKCoreHealthInstitutionVS"
+  },
+  {
+    "id" : "lk-core-institution-type-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-institution-type-vs",
+    "version" : "0.1.0",
+    "name" : "LKCoreInstitutionTypeVS"
+  },
+  {
+    "id" : "lk-core-moh-area-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-moh-area-vs",
+    "version" : "0.1.0",
+    "name" : "LKCoreMOHAreaVS"
+  },
+  {
+    "id" : "lk-core-postalcodes-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-postalcodes-vs",
+    "version" : "0.1.0",
+    "name" : "LKCorePostalCodesVS"
+  },
+  {
+    "id" : "lk-core-province-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-province-vs",
+    "version" : "0.1.0",
+    "name" : "LKCoreProvinceVS"
+  },
+  {
+    "id" : "lk-core-qualifications-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-qualifications-vs",
+    "version" : "0.1.0",
+    "name" : "LKCoreQualificationsVS"
+  },
+  {
+    "id" : "lk-core-ownership-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.health.gov.lk/fhir/ValueSet/lk-core-ownership-vs",
+    "version" : "0.1.0",
+    "name" : "LKCoreOwnershipVS"
+  },
+  {
+    "id" : "lk-core-moh-area-ext",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.health.gov.lk/fhir/lk-core-moh-area-ext",
+    "version" : "0.1.0",
+    "name" : "LKCoreMOHAreaExt"
+  }
+]
