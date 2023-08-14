@@ -70,6 +70,13 @@
     "name" : "SLCoreexampleIG"
   },
   {
+    "id" : "lk-core-address",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.health.gov.lk/StructureDefinition/lk-core-address",
+    "version" : "0.1.0",
+    "name" : "LKCoreAddress"
+  },
+  {
     "id" : "lk-core-allergy-intolerance",
     "type" : "StructureDefinition",
     "url" : "http://fhir.health.gov.lk/StructureDefinition/lk-core-allergy-intolerance",
