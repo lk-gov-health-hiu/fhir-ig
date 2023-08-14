@@ -52,6 +52,7 @@
   },
   "usage": {
     "http://fhir.health.gov.lk/StructureDefinition/lk-core-moh-area-ex": [
+      "Address",
       "Organization"
     ],
     "http://fhir.health.gov.lk/StructureDefinition/lk-core-province-ext": [
