@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="lk-core-gn-area-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://fhir.health.gov.lk/ValueSet/lk-core-gn-area-vs"/>
+  <version value="0.1.0"/>
+  <name value="LKCoreGNAreaVS"/>
+  <title value="LK Core GN Area Value Set"/>
+  <status value="draft"/>
+  <date value="2023-09-05T15:30:49+05:30"/>
+  <description value="LK Core Grama Niladari Area Value Set"/>
+  <compose>
+    <include>
+      <system value="http://fhir.health.gov.lk/CodeSystem/lk-core-gn-area-cs"/>
+    </include>
+  </compose>
+</ValueSet>

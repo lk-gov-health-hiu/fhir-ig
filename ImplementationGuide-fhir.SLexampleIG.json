@@ -3,14 +3,14 @@
   "id" : "fhir.SLexampleIG",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SLCoreexampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.health.gov.lk/ImplementationGuide/fhir.SLexampleIG</pre><div><p>A test IG for SL Core</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "http://fhir.health.gov.lk/ImplementationGuide/fhir.SLexampleIG",
   "version" : "0.1.0",
   "name" : "SLCoreexampleIG",
   "title" : "SL Core",
   "status" : "draft",
-  "date" : "2023-08-14T13:12:37+05:30",
+  "date" : "2023-09-05T15:30:49+05:30",
   "description" : "A test IG for SL Core",
   "packageId" : "fhir.SLexampleIG",
   "license" : "CC0-1.0",
@@ -625,6 +625,42 @@
       },
       "name" : "LK Core District Value Set",
       "description" : "LK Core District Value Set",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/lk-core-gn-area-cs"
+      },
+      "name" : "LK Core GN Area Code System",
+      "description" : "LK Core Grama Niladari Area Code System",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/lk-core-gn-area-ext"
+      },
+      "name" : "LK Core GN Area Extension",
+      "description" : "LK Core GN Area Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/lk-core-gn-area-vs"
+      },
+      "name" : "LK Core GN Area Value Set",
+      "description" : "LK Core Grama Niladari Area Value Set",
       "exampleBoolean" : false
     },
     {

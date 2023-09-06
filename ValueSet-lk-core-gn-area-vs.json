@@ -1,0 +1,20 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "lk-core-gn-area-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-gn-area-vs",
+  "version" : "0.1.0",
+  "name" : "LKCoreGNAreaVS",
+  "title" : "LK Core GN Area Value Set",
+  "status" : "draft",
+  "date" : "2023-09-05T15:30:49+05:30",
+  "description" : "LK Core Grama Niladari Area Value Set",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.health.gov.lk/CodeSystem/lk-core-gn-area-cs"
+    }]
+  }
+}

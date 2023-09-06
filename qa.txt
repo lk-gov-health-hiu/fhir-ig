@@ -1,12 +1,13 @@
 ﻿SLCoreexampleIG : Validation Results
 =========================================
 
-err = 9, warn = 42, info = 9
-IG Publisher Version: 1.3.28
-Generated Mon Aug 14 13:14:33 IST 2023. FHIR version 4.0.1 for fhir.SLexampleIG#0.1.0 (canonical = http://fhir.health.gov.lk)
+err = 9, warn = 47, info = 10
+IG Publisher Version: 1.4.2
+Generated Tue Sep 05 15:34:26 IST 2023. FHIR version 4.0.1 for fhir.SLexampleIG#0.1.0 (canonical = http://fhir.health.gov.lk)
  Build Errors : 0 / 5 / 0
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\CodeSystem-lk-core-allergyintolerance-code-cs : 3 / 2 / 2
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\CodeSystem-lk-core-district-cs : 0 / 2 / 2
+ C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\CodeSystem-lk-core-gn-area-cs : 0 / 2 / 2
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\CodeSystem-lk-core-health-institution-cs : 0 / 2 / 2
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\CodeSystem-lk-core-institution-type-cs : 0 / 2 / 2
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\CodeSystem-lk-core-moh-area-cs : 0 / 2 / 2
@@ -17,6 +18,7 @@ Generated Mon Aug 14 13:14:33 IST 2023. FHIR version 4.0.1 for fhir.SLexampleIG#
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\ImplementationGuide-fhir.SLexampleIG : 0 / 0 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\StructureDefinition-lk-core-address : 0 / 1 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\StructureDefinition-lk-core-allergy-intolerance : 0 / 1 / 1
+ C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\StructureDefinition-lk-core-gn-area-ext : 0 / 2 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\StructureDefinition-lk-core-location : 0 / 1 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\StructureDefinition-lk-core-moh-area-ext : 3 / 2 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\StructureDefinition-lk-core-organization : 0 / 1 / 1
@@ -25,6 +27,7 @@ Generated Mon Aug 14 13:14:33 IST 2023. FHIR version 4.0.1 for fhir.SLexampleIG#
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\StructureDefinition-lk-core-province-ext : 0 / 2 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\ValueSet-lk-core-allergy-intolerance-code-valueset : 3 / 1 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\ValueSet-lk-core-district-vs : 0 / 1 / 1
+ C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\ValueSet-lk-core-gn-area-vs : 0 / 1 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\ValueSet-lk-core-health-institution-vs : 0 / 1 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\ValueSet-lk-core-institution-type-vs : 0 / 1 / 1
  C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\ValueSet-lk-core-moh-area-vs : 0 / 1 / 1
@@ -50,6 +53,10 @@ ERROR: C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\CodeSystem-lk
 INFORMATION: CodeSystem/lk-core-district-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/lk-core-district-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 WARNING: CodeSystem/lk-core-district-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated\resources\CodeSystem-lk-core-gn-area-cs.json ==
+INFORMATION: CodeSystem/lk-core-gn-area-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/lk-core-gn-area-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/lk-core-gn-area-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 == fsh-generated\resources\CodeSystem-lk-core-health-institution-cs.json ==
 INFORMATION: CodeSystem/lk-core-health-institution-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/lk-core-health-institution-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
@@ -83,6 +90,9 @@ WARNING: CodeSystem/lk-core-qualifications-cs: CodeSystem: The ShareableCodeSyst
 WARNING: StructureDefinition.where(url = 'http://fhir.health.gov.lk/StructureDefinition/lk-core-address'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated\resources\StructureDefinition-lk-core-allergy-intolerance.json ==
 WARNING: StructureDefinition.where(url = 'http://fhir.health.gov.lk/StructureDefinition/lk-core-allergy-intolerance'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-lk-core-gn-area-ext.json ==
+WARNING: StructureDefinition/lk-core-gn-area-ext: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.health.gov.lk/StructureDefinition/lk-core-gn-area-ext'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-lk-core-location.json ==
 WARNING: StructureDefinition.where(url = 'http://fhir.health.gov.lk/StructureDefinition/lk-core-location'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-lk-core-moh-area-ext.json ==
@@ -107,6 +117,8 @@ WARNING: ValueSet/lk-core-allergy-intolerance-code-valueset: ValueSet: The Share
 ERROR: C:\Users\HP\Documents\GitHub\slcore\fsh-generated\resources\ValueSet-lk-core-allergy-intolerance-code-valueset: URL Mismatch http://fhir.health.gov.lk/ValueSet/lk-core-allergy-intolerance-code-valueset vs http://fhir.health.gov.lk/ValueSet/lk-core-allergy-intolerance-code-vs
 == fsh-generated\resources\ValueSet-lk-core-district-vs.json ==
 WARNING: ValueSet/lk-core-district-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-lk-core-gn-area-vs.json ==
+WARNING: ValueSet/lk-core-gn-area-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-lk-core-health-institution-vs.json ==
 WARNING: ValueSet/lk-core-health-institution-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-lk-core-institution-type-vs.json ==

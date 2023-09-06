@@ -10,14 +10,14 @@
   fhir:id [ fhir:v "fhir.SLexampleIG"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SLCoreexampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.health.gov.lk/ImplementationGuide/fhir.SLexampleIG</pre><div><p>A test IG for SL Core</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.health.gov.lk/ImplementationGuide/fhir.SLexampleIG"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SLCoreexampleIG"] ; # 
   fhir:title [ fhir:v "SL Core"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-08-14T13:12:37+05:30"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-09-05T15:30:49+05:30"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "A test IG for SL Core"] ; # 
   fhir:packageId [ fhir:v "fhir.SLexampleIG"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
@@ -542,6 +542,42 @@
        ] ;
        fhir:name [ fhir:v "LK Core District Value Set" ] ;
        fhir:description [ fhir:v "LK Core District Value Set" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.health.gov.lk/CodeSystem/lk-core-gn-area-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/lk-core-gn-area-cs" ]
+       ] ;
+       fhir:name [ fhir:v "LK Core GN Area Code System" ] ;
+       fhir:description [ fhir:v "LK Core Grama Niladari Area Code System" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.health.gov.lk/StructureDefinition/lk-core-gn-area-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/lk-core-gn-area-ext" ]
+       ] ;
+       fhir:name [ fhir:v "LK Core GN Area Extension" ] ;
+       fhir:description [ fhir:v "LK Core GN Area Extension" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.health.gov.lk/ValueSet/lk-core-gn-area-vs> ;
+         fhir:reference [ fhir:v "ValueSet/lk-core-gn-area-vs" ]
+       ] ;
+       fhir:name [ fhir:v "LK Core GN Area Value Set" ] ;
+       fhir:description [ fhir:v "LK Core Grama Niladari Area Value Set" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
