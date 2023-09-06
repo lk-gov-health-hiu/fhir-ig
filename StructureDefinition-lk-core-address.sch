@@ -13,6 +13,7 @@
     <sch:title>f:Address</sch:title>
     <sch:rule context="f:Address">
       <sch:assert test="count(f:extension[@url = 'http://fhir.health.gov.lk/StructureDefinition/lk-core-moh-area-ex']) &lt;= 1">extension with URL = 'http://fhir.health.gov.lk/StructureDefinition/lk-core-moh-area-ex': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://fhir.health.gov.lk/StructureDefinition/lk-core-gn-area-ext']) &lt;= 1">extension with URL = 'http://fhir.health.gov.lk/StructureDefinition/lk-core-gn-area-ext': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

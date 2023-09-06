@@ -4,6 +4,13 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "http://fhir.health.gov.lk/StructureDefinition/lk-core-gn-area-ext",
+      "title": "LK Core GN Area Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "http://fhir.health.gov.lk/StructureDefinition/lk-core-moh-area-ex",
       "title": "LK Core MOH Area Extension",
       "types": [
@@ -51,6 +58,9 @@
     ]
   },
   "usage": {
+    "http://fhir.health.gov.lk/StructureDefinition/lk-core-gn-area-ext": [
+      "Address"
+    ],
     "http://fhir.health.gov.lk/StructureDefinition/lk-core-moh-area-ex": [
       "Address",
       "Organization"
